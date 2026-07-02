@@ -21,7 +21,7 @@ app.use(
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
-);  Q1``
+);
 app.use(express.json());
 app.use(cookieParser());
 
